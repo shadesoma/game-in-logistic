@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/main.scss'
-import Input from '@material-ui/core/Input';
 
 export default class GameStart extends React.Component {
   constructor (props) {
@@ -42,7 +41,7 @@ export default class GameStart extends React.Component {
           <div className="field">
             <div className="control">
               <label>
-                <Input className="input primary"
+                <input className="input is-primary"
                        type="text"
                        placeholder="Укажите название команды"
                        value={this.state.value}

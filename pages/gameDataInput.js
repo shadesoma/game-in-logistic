@@ -20,7 +20,7 @@ export default class GameDataInput extends React.Component {
         <div className="gameDataInput">
           <TeamName name={this.state.teamName}/>
           <p>Неделя № weekNumber</p>
-          <p> descriptionOfConditions № weekNumber</p>
+          <p> Описание условий недели № weekNumber</p>
           <table className="firstTable table is-bordered">
             <tbody>
             <tr>
@@ -32,7 +32,7 @@ export default class GameDataInput extends React.Component {
               <th>Звено 5</th>
             </tr>
             <tr>
-              <th/>
+              <th><br/></th>
               <th/>
               <th/>
               <th/>
